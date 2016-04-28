@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>align-content</title>
+	<meta charset="utf-8" />
+	<style type="text/css">
+	*{margin: 0;padding:0;}
+	.box{
+		margin-top:10px;
+		height:100px;
+		flex-direction: row;
+		flex-wrap:wrap;
+		justify-content:flex-start;
+		align-items:flex-start;
+		background-color:green;
+		width:500px;
+	}
+	.box1{
+		align-content:flex-start;
+	}
+	.box2{
+		align-content:flex-end;
+	}
+	.box3{
+		align-content:center;
+	}
+	.box4{
+		align-content:space-between;
+	}
+	.box5{
+		align-content:space-around;
+	}
+	.box2 div,span{
+		background-color:pink;
+		margin-right: 10px;
+	}
+	.box2 div{
+		width:5em;
+		height: 1em;
+		display: inline-block;
+	}
+	</style>
+</head>
+<body>
+	<div class="box1 box">
+		<span>项目1</span
+		><span>项目2</span
+		><span>项目3</span
+		><span>项目4</span
+		><span>项目5</span
+		><span>项目6</span
+		><span>项目7</span
+		><span>项目8</span
+		><span>项目9</span
+		><span>项目10</span
+		><span>项目11</span
+		><span>项目12</span>
+	</div>
+	<div class="box2 box">
+		<div>项目1</div
+		><div>项目2</div
+		><div>项目3</div
+		><div>项目4</div
+		><div>项目5</div
+		><div>项目6</div
+		><div>项目7</div
+		><div>项目8</div
+		><div>项目9</div
+		><div>项目10</div
+		><div>项目11</div
+		><div>项目12</div>
+	</div>
+	<div class="box3 box">
+		<span>项目1</span
+		><span>项目2</span
+		><span>项目3</span
+		><span>项目4</span
+		><span>项目5</span
+		><span>项目6</span
+		><span>项目7</span
+		><span>项目8</span
+		><span>项目9</span
+		><span>项目10</span
+		><span>项目11</span
+		><span>项目12</span>
+	</div>
+	<div class="box4 box">
+		<span>项目1</span
+		><span>项目2</span
+		><span>项目3</span
+		><span>项目4</span
+		><span>项目5</span
+		><span>项目6</span
+		><span>项目7</span
+		><span>项目8</span
+		><span>项目9</span
+		><span>项目10</span
+		><span>项目11</span
+		><span>项目12</span>
+	</div>
+	<div class="box5 box">
+		<span>项目1</span
+		><span>项目2</span
+		><span>项目3</span
+		><span>项目4</span
+		><span>项目5</span
+		><span>项目6</span
+		><span>项目7</span
+		><span>项目8</span
+		><span>项目9</span
+		><span>项目10</span
+		><span>项目11</span
+		><span>项目12</span>
+	</div>
+</body>
+</html>
